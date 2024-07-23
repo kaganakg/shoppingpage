@@ -38,7 +38,7 @@
   align-items: center;
   color: #F9C611;
   text-decoration: none;
-  font-size: 24px; 
+  font-size: 20px; 
 }
 
 .header .cart-icon {
@@ -68,5 +68,5 @@
 }
 
 .logo {
-  height: 100px;
+  height: 75px;
 }
