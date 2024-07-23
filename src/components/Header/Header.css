@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0B1833;
+  color: white;
+  
+}
+.h1{
+  text-decoration:none;
+  text-decoration-color:yellow ;
+}
+
+.header h1 {
+  margin: 0;
+  color: yellow;
+  
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+  position: relative; 
+}
+
+.header .home-icon,
+.header .admin-icon,
+.header .cart-icon {
+  display: flex;
+  align-items: center;
+  color: #F9C611;
+  text-decoration: none;
+  font-size: 24px; 
+}
+
+.header .cart-icon {
+  position: relative;
+  margin: 3px;
+}
+
+.header .cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+
+.cart-icon-container {
+  position: relative; /* Tooltip’in doğru pozisyonda olabilmesi için */
+}
+
+
+.header-logo-link {
+  text-decoration: none;
+}
+
+.logo {
+  height: 100px;
+}

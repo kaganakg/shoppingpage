@@ -1,0 +1,6 @@
+.tooltip {
+    position: absolute;
+    top: 50px; /* İkonun hemen altında gösterir */
+    right: 0;
+    background-color: white;
+}
